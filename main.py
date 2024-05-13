@@ -91,6 +91,6 @@ async def cip(ctx, code):
                 embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar)
                 embed.add_field(name="IP:Port", value=f"`{connect_endpoint}`")
                 await ctx.send(embed=embed)
-# Définissez d'autres commandes ici...
+# other command
 
 bot.run("token")
